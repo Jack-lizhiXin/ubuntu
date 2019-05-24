@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y openssh-server openjdk-7-jdk wget vim
 
 # set environment variable
 ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 
-ENV HADOOP_HOME=/usr/local/hadoop 
+ENV HADOOP_HOME=/root/hadoop-2.9.2 
 ENV PATH=$PATH:/usr/local/hadoop/bin:/usr/local/hadoop/sbin
 
 # ssh without key
